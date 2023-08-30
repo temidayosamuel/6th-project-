@@ -1,0 +1,121 @@
+.age__div {
+  border-bottom-right-radius: 100px;
+  background-color: hsl(0, 0%, 100%);
+  width: 450px;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
+  color: hsl(0, 1%, 44%);
+  padding-left: 5px;
+}
+
+.list--inline .list__item {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.list__item {
+  font-family: "Poppins";
+  font-size: 10px;
+  margin-bottom: 0px;
+}
+
+.list__itemDay {
+  border: 0.9px solid hsl(0, 1%, 44%);
+  border-radius: 5px;
+  width: 50px;
+  margin-left: 5px;
+  padding-top: 0;
+  padding-left: 10px;
+  font-family: "Poppins";
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.list__itemmonth {
+  border: 0.9px solid hsl(0, 1%, 44%);
+  border-radius: 5px;
+  width: 50px;
+  margin-left: 5px;
+  padding-top: 0;
+  padding-left: 10px;
+  font-family: "Poppins";
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.list__itemyear {
+  border: 0.9px solid hsl(0, 1%, 44%);
+  border-radius: 5px;
+  width: 70px;
+  margin-left: 5px;
+  padding-top: 0;
+  padding-left: 10px;
+  font-family: "Poppins";
+  font-size: 25px;
+}
+
+.month-year {
+  display: flex;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.icon-container {
+  background-color: hsl(259, 100%, 65%);
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon__containerdiv {
+  align-items: right;
+  display: flex;
+}
+
+.div__line {
+  height: 2px;
+  background-color: hsl(0, 0%, 94%);
+  flex: 1;
+  margin-top: 25px;
+}
+
+.years--38 {
+  color: hsl(259, 100%, 65%);
+  font-family: "Poppins";
+  font-weight: 700;
+  font-style: italic;
+  font-size: 50px;
+}
+
+.Years__38 {
+  font-size: 30px;
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 700;
+  list-style: none;
+}
+
+.years {
+  padding-bottom: 0px;
+  margin-bottom: 0;
+}
+
+.table__243 {
+  padding-left: 30px;
+}
+
+.overall {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
